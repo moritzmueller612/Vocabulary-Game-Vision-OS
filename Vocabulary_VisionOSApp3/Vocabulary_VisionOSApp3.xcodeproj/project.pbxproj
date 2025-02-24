@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		772FE5C22D359C480057ECDE /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 772FE5C12D359C480057ECDE /* RealityKitContent */; };
+		772FE5C42D359C480057ECDE /* Vocabulary_VisionOSAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772FE5C32D359C480057ECDE /* Vocabulary_VisionOSAppApp.swift */; };
+		772FE5C62D359C480057ECDE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772FE5C52D359C480057ECDE /* ContentView.swift */; };
+		772FE5CB2D359C490057ECDE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 772FE5CA2D359C490057ECDE /* Preview Assets.xcassets */; };
+		772FE5D62D359C4A0057ECDE /* Vocabulary_VisionOSAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772FE5D52D359C4A0057ECDE /* Vocabulary_VisionOSAppTests.swift */; };
+		772FE5F02D35A0AA0057ECDE /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772FE5DF2D35A0AA0057ECDE /* Settings.swift */; };
+		772FE5F22D35A0AA0057ECDE /* vocabulary.json in Resources */ = {isa = PBXBuildFile; fileRef = 772FE5E12D35A0AA0057ECDE /* vocabulary.json */; };
+		772FE5F32D35A0AA0057ECDE /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772FE5E32D35A0AA0057ECDE /* GameView.swift */; };
+		772FE5F42D35A0AA0057ECDE /* MenueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772FE5E42D35A0AA0057ECDE /* MenueView.swift */; };
+		772FE5F52D35A0AA0057ECDE /* Bubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772FE5E62D35A0AA0057ECDE /* Bubble.swift */; };
+		772FE5F62D35A0AA0057ECDE /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772FE5E72D35A0AA0057ECDE /* Item.swift */; };
+		772FE5F72D35A0AA0057ECDE /* ReadVocabularyJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772FE5E82D35A0AA0057ECDE /* ReadVocabularyJson.swift */; };
+		772FE5F92D35A0AA0057ECDE /* SpeechRecognition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772FE5EB2D35A0AA0057ECDE /* SpeechRecognition.swift */; };
+		772FE5FB2D35A0AA0057ECDE /* SoloPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772FE5EE2D35A0AA0057ECDE /* SoloPlayer.swift */; };
+		7780B45F2D4791EE004E0589 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7780B45E2D4791EE004E0589 /* ListView.swift */; };
+		77F4E2202D4E759700C8307C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77F4E21F2D4E759700C8307C /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		772FE5D22D359C4A0057ECDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 772FE5B42D359C480057ECDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 772FE5BB2D359C480057ECDE;
+			remoteInfo = Vocabulary_VisionOSApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		772FE5BC2D359C480057ECDE /* Vocabulary_VisionOSApp3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vocabulary_VisionOSApp3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		772FE5C02D359C480057ECDE /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		772FE5C32D359C480057ECDE /* Vocabulary_VisionOSAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vocabulary_VisionOSAppApp.swift; sourceTree = "<group>"; };
+		772FE5C52D359C480057ECDE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		772FE5CA2D359C490057ECDE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		772FE5CC2D359C490057ECDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		772FE5D12D359C4A0057ECDE /* Vocabulary_VisionOSApp3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Vocabulary_VisionOSApp3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		772FE5D52D359C4A0057ECDE /* Vocabulary_VisionOSAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vocabulary_VisionOSAppTests.swift; sourceTree = "<group>"; };
+		772FE5DF2D35A0AA0057ECDE /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Settings.swift; path = ../../VocOnTheFly.swiftpm/Settings.swift; sourceTree = "<group>"; };
+		772FE5E12D35A0AA0057ECDE /* vocabulary.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = vocabulary.json; sourceTree = "<group>"; };
+		772FE5E32D35A0AA0057ECDE /* GameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		772FE5E42D35A0AA0057ECDE /* MenueView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenueView.swift; sourceTree = "<group>"; };
+		772FE5E62D35A0AA0057ECDE /* Bubble.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bubble.swift; sourceTree = "<group>"; };
+		772FE5E72D35A0AA0057ECDE /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		772FE5E82D35A0AA0057ECDE /* ReadVocabularyJson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadVocabularyJson.swift; sourceTree = "<group>"; };
+		772FE5EB2D35A0AA0057ECDE /* SpeechRecognition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechRecognition.swift; sourceTree = "<group>"; };
+		772FE5EE2D35A0AA0057ECDE /* SoloPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoloPlayer.swift; sourceTree = "<group>"; };
+		7780B45E2D4791EE004E0589 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		77F4E21F2D4E759700C8307C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../VocOnTheFly.swiftpm/Views/Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		772FE5B92D359C480057ECDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				772FE5C22D359C480057ECDE /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		772FE5CE2D359C4A0057ECDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		772FE5B32D359C480057ECDE = {
+			isa = PBXGroup;
+			children = (
+				772FE5BE2D359C480057ECDE /* Vocabulary_VisionOSApp3 */,
+				772FE5BF2D359C480057ECDE /* Packages */,
+				772FE5D42D359C4A0057ECDE /* Vocabulary_VisionOSAppTests */,
+				772FE5BD2D359C480057ECDE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		772FE5BD2D359C480057ECDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				772FE5BC2D359C480057ECDE /* Vocabulary_VisionOSApp3.app */,
+				772FE5D12D359C4A0057ECDE /* Vocabulary_VisionOSApp3Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		772FE5BE2D359C480057ECDE /* Vocabulary_VisionOSApp3 */ = {
+			isa = PBXGroup;
+			children = (
+				772FE5E92D35A0AA0057ECDE /* GameItems */,
+				772FE5EF2D35A0AA0057ECDE /* GameScenes */,
+				772FE5E22D35A0AA0057ECDE /* Resources */,
+				772FE5DF2D35A0AA0057ECDE /* Settings.swift */,
+				772FE5EC2D35A0AA0057ECDE /* Speech */,
+				772FE5E52D35A0AA0057ECDE /* Views */,
+				772FE5C32D359C480057ECDE /* Vocabulary_VisionOSAppApp.swift */,
+				772FE5C52D359C480057ECDE /* ContentView.swift */,
+				772FE5CC2D359C490057ECDE /* Info.plist */,
+				77F4E21F2D4E759700C8307C /* Assets.xcassets */,
+				772FE5C92D359C490057ECDE /* Preview Content */,
+			);
+			path = Vocabulary_VisionOSApp3;
+			sourceTree = "<group>";
+		};
+		772FE5BF2D359C480057ECDE /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				772FE5C02D359C480057ECDE /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		772FE5C92D359C490057ECDE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				772FE5CA2D359C490057ECDE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		772FE5D42D359C4A0057ECDE /* Vocabulary_VisionOSAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				772FE5D52D359C4A0057ECDE /* Vocabulary_VisionOSAppTests.swift */,
+			);
+			path = Vocabulary_VisionOSAppTests;
+			sourceTree = "<group>";
+		};
+		772FE5E22D35A0AA0057ECDE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				772FE5E12D35A0AA0057ECDE /* vocabulary.json */,
+			);
+			name = Resources;
+			path = ../../VocOnTheFly.swiftpm/Resources;
+			sourceTree = "<group>";
+		};
+		772FE5E52D35A0AA0057ECDE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				772FE5E32D35A0AA0057ECDE /* GameView.swift */,
+				772FE5E42D35A0AA0057ECDE /* MenueView.swift */,
+				7780B45E2D4791EE004E0589 /* ListView.swift */,
+			);
+			name = Views;
+			path = ../../VocOnTheFly.swiftpm/Views;
+			sourceTree = "<group>";
+		};
+		772FE5E92D35A0AA0057ECDE /* GameItems */ = {
+			isa = PBXGroup;
+			children = (
+				772FE5E62D35A0AA0057ECDE /* Bubble.swift */,
+				772FE5E72D35A0AA0057ECDE /* Item.swift */,
+				772FE5E82D35A0AA0057ECDE /* ReadVocabularyJson.swift */,
+			);
+			name = GameItems;
+			path = ../../VocOnTheFly.swiftpm/GameItems;
+			sourceTree = "<group>";
+		};
+		772FE5EC2D35A0AA0057ECDE /* Speech */ = {
+			isa = PBXGroup;
+			children = (
+				772FE5EB2D35A0AA0057ECDE /* SpeechRecognition.swift */,
+			);
+			name = Speech;
+			path = ../../VocOnTheFly.swiftpm/Speech;
+			sourceTree = "<group>";
+		};
+		772FE5EF2D35A0AA0057ECDE /* GameScenes */ = {
+			isa = PBXGroup;
+			children = (
+				772FE5EE2D35A0AA0057ECDE /* SoloPlayer.swift */,
+			);
+			name = GameScenes;
+			path = ../../VocOnTheFly.swiftpm/GameScenes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		772FE5BB2D359C480057ECDE /* Vocabulary_VisionOSApp3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 772FE5D92D359C4A0057ECDE /* Build configuration list for PBXNativeTarget "Vocabulary_VisionOSApp3" */;
+			buildPhases = (
+				772FE5B82D359C480057ECDE /* Sources */,
+				772FE5B92D359C480057ECDE /* Frameworks */,
+				772FE5BA2D359C480057ECDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vocabulary_VisionOSApp3;
+			packageProductDependencies = (
+				772FE5C12D359C480057ECDE /* RealityKitContent */,
+			);
+			productName = Vocabulary_VisionOSApp;
+			productReference = 772FE5BC2D359C480057ECDE /* Vocabulary_VisionOSApp3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		772FE5D02D359C4A0057ECDE /* Vocabulary_VisionOSApp3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 772FE5DC2D359C4A0057ECDE /* Build configuration list for PBXNativeTarget "Vocabulary_VisionOSApp3Tests" */;
+			buildPhases = (
+				772FE5CD2D359C4A0057ECDE /* Sources */,
+				772FE5CE2D359C4A0057ECDE /* Frameworks */,
+				772FE5CF2D359C4A0057ECDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				772FE5D32D359C4A0057ECDE /* PBXTargetDependency */,
+			);
+			name = Vocabulary_VisionOSApp3Tests;
+			productName = Vocabulary_VisionOSAppTests;
+			productReference = 772FE5D12D359C4A0057ECDE /* Vocabulary_VisionOSApp3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		772FE5B42D359C480057ECDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					772FE5BB2D359C480057ECDE = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					772FE5D02D359C4A0057ECDE = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 772FE5BB2D359C480057ECDE;
+					};
+				};
+			};
+			buildConfigurationList = 772FE5B72D359C480057ECDE /* Build configuration list for PBXProject "Vocabulary_VisionOSApp3" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 772FE5B32D359C480057ECDE;
+			productRefGroup = 772FE5BD2D359C480057ECDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				772FE5BB2D359C480057ECDE /* Vocabulary_VisionOSApp3 */,
+				772FE5D02D359C4A0057ECDE /* Vocabulary_VisionOSApp3Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		772FE5BA2D359C480057ECDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				772FE5CB2D359C490057ECDE /* Preview Assets.xcassets in Resources */,
+				77F4E2202D4E759700C8307C /* Assets.xcassets in Resources */,
+				772FE5F22D35A0AA0057ECDE /* vocabulary.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		772FE5CF2D359C4A0057ECDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		772FE5B82D359C480057ECDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				772FE5F02D35A0AA0057ECDE /* Settings.swift in Sources */,
+				772FE5F42D35A0AA0057ECDE /* MenueView.swift in Sources */,
+				772FE5F92D35A0AA0057ECDE /* SpeechRecognition.swift in Sources */,
+				772FE5FB2D35A0AA0057ECDE /* SoloPlayer.swift in Sources */,
+				772FE5C62D359C480057ECDE /* ContentView.swift in Sources */,
+				772FE5F72D35A0AA0057ECDE /* ReadVocabularyJson.swift in Sources */,
+				772FE5F62D35A0AA0057ECDE /* Item.swift in Sources */,
+				772FE5F52D35A0AA0057ECDE /* Bubble.swift in Sources */,
+				7780B45F2D4791EE004E0589 /* ListView.swift in Sources */,
+				772FE5C42D359C480057ECDE /* Vocabulary_VisionOSAppApp.swift in Sources */,
+				772FE5F32D35A0AA0057ECDE /* GameView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		772FE5CD2D359C4A0057ECDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				772FE5D62D359C4A0057ECDE /* Vocabulary_VisionOSAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		772FE5D32D359C4A0057ECDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 772FE5BB2D359C480057ECDE /* Vocabulary_VisionOSApp3 */;
+			targetProxy = 772FE5D22D359C4A0057ECDE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		772FE5D72D359C4A0057ECDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.2;
+			};
+			name = Debug;
+		};
+		772FE5D82D359C4A0057ECDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.2;
+			};
+			name = Release;
+		};
+		772FE5DA2D359C4A0057ECDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Vocabulary_VisionOSApp3/Preview Content\"";
+				DEVELOPMENT_TEAM = MZD4AGLY32;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Version A";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "please allow";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Please allow";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mm.Vocabulary-VisionOSApp3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		772FE5DB2D359C4A0057ECDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Vocabulary_VisionOSApp3/Preview Content\"";
+				DEVELOPMENT_TEAM = MZD4AGLY32;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Version A";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "please allow";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Please allow";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mm.Vocabulary-VisionOSApp3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+		772FE5DD2D359C4A0057ECDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MZD4AGLY32;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mm.Vocabulary-VisionOSAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vocabulary_VisionOSApp3.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Vocabulary_VisionOSApp3";
+				XROS_DEPLOYMENT_TARGET = 1.2;
+			};
+			name = Debug;
+		};
+		772FE5DE2D359C4A0057ECDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MZD4AGLY32;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mm.Vocabulary-VisionOSAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vocabulary_VisionOSApp3.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Vocabulary_VisionOSApp3";
+				XROS_DEPLOYMENT_TARGET = 1.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		772FE5B72D359C480057ECDE /* Build configuration list for PBXProject "Vocabulary_VisionOSApp3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				772FE5D72D359C4A0057ECDE /* Debug */,
+				772FE5D82D359C4A0057ECDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		772FE5D92D359C4A0057ECDE /* Build configuration list for PBXNativeTarget "Vocabulary_VisionOSApp3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				772FE5DA2D359C4A0057ECDE /* Debug */,
+				772FE5DB2D359C4A0057ECDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		772FE5DC2D359C4A0057ECDE /* Build configuration list for PBXNativeTarget "Vocabulary_VisionOSApp3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				772FE5DD2D359C4A0057ECDE /* Debug */,
+				772FE5DE2D359C4A0057ECDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		772FE5C12D359C480057ECDE /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 772FE5B42D359C480057ECDE /* Project object */;
+}
